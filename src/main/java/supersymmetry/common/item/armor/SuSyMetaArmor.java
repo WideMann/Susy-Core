@@ -50,5 +50,7 @@ public class SuSyMetaArmor extends SuSyArmorItem {
                 .setArmorLogic(new SpaceSuit(LEGS, 175, 0, "astronaut", 1, 0.6));
         ASTRONAUT_BOOTS = addItem(21, "astronaut_boots")
                 .setArmorLogic(new SpaceSuit(FEET, 150, 0, "astronaut", 1, 0.6));
+        STEEL_HELMET = addItem(22, "steel_helmet")
+                .setArmorLogic(new SimpleArmor(HEAD, 255, "steel", 1, 0.5));
     }
 }

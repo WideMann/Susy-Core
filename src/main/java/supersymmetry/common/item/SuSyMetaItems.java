@@ -85,6 +85,8 @@ public class SuSyMetaItems {
     public static ArmorMetaItem<?>.ArmorMetaValueItem ASTRONAUT_LEGGINGS;
     public static ArmorMetaItem<?>.ArmorMetaValueItem ASTRONAUT_BOOTS;
 
+    public static ArmorMetaItem<?>.ArmorMetaValueItem STEEL_HELMET;
+
     public static void initMetaItems() {
         metaItem = new StandardMetaItem();
         metaItem.setRegistryName("meta_item");
